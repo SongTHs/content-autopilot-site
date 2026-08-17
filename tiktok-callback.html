@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+  <title>TikTok 연결 | Content AutoPilot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="hero" aria-live="polite">
+      <p class="eyebrow">TIKTOK OAUTH CALLBACK</p>
+      <h1>TikTok 연결을<br>로컬 앱에서 마무리합니다</h1>
+      <p id="callbackStatus" class="lead">인증 응답을 확인하고 있습니다.</p>
+      <div class="links"><a id="continueLink" class="primary" href="./" hidden>로컬 앱으로 돌아가기</a></div>
+    </section>
+  </main>
+  <script src="tiktok-callback.js"></script>
+</body>
+</html>
